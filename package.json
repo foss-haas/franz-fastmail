@@ -1,5 +1,6 @@
 {
-  "name": "fastmail",
+  "id": "fastmail",
+  "name": "FastMail",
   "version": "1.0.0",
   "description": "Email, calendars and contacts done right.",
   "main": "index.js",
@@ -7,18 +8,7 @@
   "license": "MIT",
   "config": {
     "serviceURL": "https://www.fastmail.com/mail/",
-    "serviceName": "FastMail",
     "message":
-      "Get private, secure, ad-free email hosting for you or your business",
-    "popup": ["^https://www\\.fastmail\\.com/unsafecontent/"],
-    "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": false,
-    "customURL": false,
-    "hostedOnly": false,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+      "Get private, secure, ad-free email hosting for you or your business"
   }
 }
